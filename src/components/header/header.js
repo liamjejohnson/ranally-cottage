@@ -1,24 +1,39 @@
 import * as React from "react"
-import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import "./header.css"
+import "./header.scss"
 
 const Header = () => (
   <header className="header">
     <div className="nav">
-      <Link className="links" to="/">
-        Home
-      </Link>
-      <Link className="links" to="/page-2/">
-        page 2
-      </Link>
-      <Link className="links" to="/page-3/">
-        page 3
-      </Link>
-      <Link className="links" to="/page-4/">
-        page 4
+      <div className="flip">
+        <Link className="link" to="/">
+          <div className="front">Home</div>
+          <div className="back">Home</div>
+        </Link>
+      </div>
+      <div className="flip">
+        <Link className="link" to="/about/about">
+          <div className="front">About</div>
+          <div className="back">About</div>
+        </Link>
+      </div>
+      <div className="flip">
+        <Link className="link" to="/page3/page3">
+          <div className="front">Gallery</div>
+          <div className="back">Gallery</div>
+        </Link>
+      </div>
+      <div className="flip">
+        <Link className="link" to="/page4/page4">
+          <div className="front">Contact</div>
+          <div className="back">Contact</div>
+        </Link>
+      </div>
+      <Link className="button" to="/booking/booking">
+        Book Now
       </Link>
     </div>
+    {/* <button className="button">Book Now</button> */}
   </header>
 )
 
