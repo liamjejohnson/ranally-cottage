@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import InstagramIcon from "@mui/icons-material/Instagram"
+import FacebookIcon from "@mui/icons-material/Facebook"
 import "./footer.scss"
 
 const Footer = () => (
@@ -13,6 +13,13 @@ const Footer = () => (
           rel="noopener"
         >
           <InstagramIcon fontSize="large"></InstagramIcon>
+        </a>
+        <a
+          href="https://www.facebook.com/RanallyCottage/"
+          target="_blank"
+          rel="noopener"
+        >
+          <FacebookIcon fontSize="large"></FacebookIcon>
         </a>
       </div>
       <div className="divider"></div>
