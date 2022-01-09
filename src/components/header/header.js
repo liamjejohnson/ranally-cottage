@@ -18,15 +18,15 @@ const Header = () => (
         </Link>
       </div>
       <div className="flip">
-        <Link className="link" to="/page3/page3">
+        <Link className="link" to="/gallery/gallery">
           <div className="front">Gallery</div>
           <div className="back">Gallery</div>
         </Link>
       </div>
       <div className="flip">
-        <Link className="link" to="/page4/page4">
-          <div className="front">Contact</div>
-          <div className="back">Contact</div>
+        <Link className="link" to="/location/location">
+          <div className="front">Location</div>
+          <div className="back">Location</div>
         </Link>
       </div>
       <Link className="button" to="/booking/booking">

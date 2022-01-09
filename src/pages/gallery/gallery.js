@@ -3,14 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../../components/layout/layout"
 import Seo from "../../components/seo"
+import "./gallery.scss"
 
-const ThirdPage = () => (
+const GalleryPage = () => (
   <Layout>
-    <Seo title="Page 3" />
-    <h1>Hi from the 3rd page</h1>
-    <p>Welcome to page 3</p>
+    <Seo title="Gallery" />
+    <h1>Hi from the Gallery page</h1>
+    <p>Welcome to the gallery</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default ThirdPage
+export default GalleryPage
