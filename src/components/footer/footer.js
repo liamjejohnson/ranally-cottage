@@ -9,15 +9,15 @@ const Footer = () => (
       <div className="socials">
         <a
           href="https://www.instagram.com/ranallycottage_devon/"
-          target="_blank"
           rel="noopener"
+          target="_blank"
         >
           <InstagramIcon fontSize="large"></InstagramIcon>
         </a>
         <a
           href="https://www.facebook.com/RanallyCottage/"
-          target="_blank"
           rel="noopener"
+          target="_blank"
         >
           <FacebookIcon fontSize="large"></FacebookIcon>
         </a>

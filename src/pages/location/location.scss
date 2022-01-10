@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+  height: calc(100% - 120px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro {
+  margin: 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #222;
+  border-bottom: 2px solid #222;
+  padding: 30px 0 10px 0;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1050px;
+  margin-bottom: 40px;
+
+  .img-card {
+    width: 500px;
+    height: 400px;
+    margin: 8px;
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .info {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+      transparent;
+    color: #fff;
+    padding: 10px;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .saunton {
+    background: url("../../images/saunton-beach.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .westwood {
+    background: url("../../images/westward-ho-beach.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .braunton {
+    background: url("../../images/braunton-burrows.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .croyde {
+    background: url("../../images/croyde.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .codden {
+    background: url("../../images/codden-hill.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .chichester-arms {
+    background: url("../../images/chichester-arms.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+// dark transparent background
+// background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), transparent;
