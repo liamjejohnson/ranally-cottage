@@ -8,21 +8,30 @@ const LocationPage = () => (
   <Layout>
     <Seo title="Location" />
     <div className="container">
-      <section className="intro">
-        <p>
-          North Devon offers so much variety. The seaside, the picturesque
-          villages, Exmoor walks, surfing, National Trust properties, golden
-          sandy beaches to name but a few choices.
-        </p>
-        <p>
-          The historic market town of Barnstaple is approximately a mile away
-          hosting a wide range of amenities, including an extensive choice of
-          shops and leisure facilities including a cinema, a theatre, Pannier
-          Market and Leisure Centre with plenty more to offer. Other local
-          attractions include; The Big Sheep, RHS Garden Rosemarie, Golf courses
-          and of course, Exmoor.
-        </p>
+      <section className="attractions-wrapper">
+        <h1>Attractions</h1>
+        <section className="attractions">
+          <div>
+            <ul>
+              <li>Sandy beaches</li>
+              <li>Cloverlly Harbour Village</li>
+              <li>Atlantic Village Outlet</li>
+              <li>South West Costal Path</li>
+              <li>Combe Martin</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>The Big Sheep</li>
+              <li>The Funicular Railway</li>
+              <li>Lundy Island</li>
+              <li>Lynton and Lynmouth</li>
+              <li>Exmoor The Doone Valley</li>
+            </ul>
+          </div>
+        </section>
       </section>
+
       <section className="location">
         <div className="img-card chichester-arms">
           <div className="info">
